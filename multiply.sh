@@ -1,0 +1,9 @@
+#!/usr/bin/bash
+FIRST=$1
+SECOND=$2
+
+let RESULT=FIRST*SECOND
+echo " $FIRST * $SECOND =  $RESULT"
+
+RESUTL1=$[ FIRST * SECOND ] 
+echo "$FIRST * $SECOND =  $RESUTL1"
